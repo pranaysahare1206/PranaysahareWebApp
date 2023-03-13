@@ -19,7 +19,7 @@ def load_lottieurl(url: str):
 def local_css(file_name):
     with open(file_name) as f:
         st.markdown(f"<style>{f.read()}</style></style>",unsafe_allow_html=True)
-local_css(r"C:\Users\pranay\Desktop\website\style.css")
+local_css("style.css")
 
 
 
@@ -79,7 +79,7 @@ with st.container():
             st.header("")
             image_column, text_column = st.columns((1, 2))
             with image_column:
-                image = Image.open(r'C:\Users\pranay\Desktop\website\mask1.png')
+                image = Image.open('mask1.png')
                 st.image(image, caption='Covid-19')
             with text_column:
                 st.subheader("Face Mask and Social distancing alert")
@@ -91,7 +91,7 @@ with st.container():
             st.header("")
             image_column, text_column = st.columns((1, 2))
             with image_column:
-                image = Image.open(r'C:\Users\pranay\Desktop\website\Chatbot.jpg')
+                image = Image.open('Chatbot.jpg')
                 st.image(image, caption='Chatbot App')
             with text_column:
                 st.subheader("Chatbot GUI Application ")
@@ -104,7 +104,7 @@ with st.container():
             st.header("")
             image_column, text_column = st.columns((1, 2))
             with image_column:
-                image = Image.open(r'C:\Users\pranay\Desktop\website\Asistant.jpeg')
+                image = Image.open('Asistant.jpeg')
                 st.image(image, caption='Desktop Assistant')
             with text_column:
                 st.subheader("Desktop Assistant Application")
@@ -118,7 +118,7 @@ with st.container():
             st.header("")
             image_column, text_column = st.columns((1, 2))
             with image_column:
-                image = Image.open(r'C:\Users\pranay\Desktop\website\database.png')
+                image = Image.open('database.png')
                 st.image(image, caption='GUI-App-SQl')
             with text_column:
                 st.subheader("Students Database System GUI Application")
@@ -131,7 +131,7 @@ with st.container():
             st.header("")
             image_column, text_column = st.columns((1, 2))
             with image_column:
-                image = Image.open(r'C:\Users\pranay\Desktop\website\digit.png')
+                image = Image.open('digit.png')
                 st.image(image, caption='Machine learning')
             with text_column:
                 st.subheader("Handwritten digital recognize using Machine Learning")
@@ -143,7 +143,7 @@ with st.container():
             st.header("")
             image_column, text_column = st.columns((1, 2))
             with image_column:
-                image = Image.open(r'C:\Users\pranay\Desktop\website\website1.png')
+                image = Image.open('website1.png')
                 st.image(image, caption='web-site')
             with text_column:
                 st.subheader("Portfolio Website (Python Web-Application)")
