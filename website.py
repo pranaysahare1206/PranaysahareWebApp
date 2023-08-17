@@ -4,7 +4,8 @@ import pandas as pd
 import numpy as np
 from PIL import Image
 from streamlit_lottie import st_lottie
-st.set_page_config(page_title="Pranay.Sahare_Website",page_icon=":loop:",layout="wide",hide_streamlit_logo=True)
+st.config(hide_streamlit_logo=True)
+st.set_page_config(page_title="Pranay.Sahare_Website",page_icon=":loop:",layout="wide")
 
 #--------load assets------------------------------------------------------------------------
 
