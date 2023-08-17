@@ -5,7 +5,7 @@ import numpy as np
 from PIL import Image
 from streamlit_lottie import st_lottie
 st.set_page_config(page_title="Pranay.Sahare_Website",page_icon=":loop:",layout="wide")
-
+st.config(hide_streamlit_logo=True)
 #--------load assets------------------------------------------------------------------------
 
 
