@@ -267,7 +267,7 @@ with st.container():
 
 
     contact_form= """
-    <form action="https://formsubmit.co/pranaysahare126@gmail.com" method="POST">
+    <form action="https://formsubmit.co/p5202102@gmail.com" method="POST">
         <input type="hidden" name="_captcha" value="false>
         <input type="text" name="name" placeholder="Your name" required>
         <input type="email" name="email" placeholder="Your email" required>
@@ -302,14 +302,6 @@ with st.container():
 
 
 
-
-
-
-
-
-
-
-st.config.hide_streamlit_logo = True
 
 
 
