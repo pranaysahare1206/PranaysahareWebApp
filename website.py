@@ -308,7 +308,8 @@ with st.container():
 
 
 
-st.config(hide_streamlit_logo=True)
+
+st.config.hide_streamlit_logo = True
 
 
 
