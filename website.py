@@ -81,7 +81,7 @@ with st.container():
                     st.write("Click the button below to download the resume:")
 
                     # Replace 'path_to_resume.pdf' with the actual path to your resume file
-                    resume_path = r"C:\Users\pranay\Desktop\New folder\website\fake.pdf"
+                    resume_path = "resume.pdf"
                     with open(resume_path, "rb") as resume_file:
                         st.download_button("Download Resume", resume_file.read(), "resume.pdf")
                 else:
